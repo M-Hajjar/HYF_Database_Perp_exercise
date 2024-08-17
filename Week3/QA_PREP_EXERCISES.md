@@ -1,6 +1,6 @@
 # Prep Exercise Week 3 
 
-## Introduction
+
 
 In Week 2, I designed a database for storing food recipes, which included tables for `Recipes`, `Ingredients`, `Categories`, and `Steps`, along with junction tables to manage many-to-many relationships. This week’s exercise focuses on normalizing that database to ensure it adheres to the principles of the Second and Third Normal Forms (2NF and 3NF). Additionally, I will discuss the potential challenges of scaling the database to include thousands of recipes and provide relevant queries to demonstrate the normalized design.
 
@@ -37,6 +37,6 @@ While the database was already well-structured, a few enhancements were made to 
     );
     ```
 
-## Conclusion
+
 
 The initial database design was already in 2NF and 3NF, but a few enhancements were made to ensure maximum efficiency and data integrity. As the database scales to accommodate thousands of recipes, challenges such as performance, storage management, and data integrity will need to be addressed. The provided queries demonstrate how the normalized design supports complex data retrieval while maintaining efficiency.
